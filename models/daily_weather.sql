@@ -10,7 +10,7 @@ pressure,
 humidity,
 clouds
 
-from {{ source('demo', 'WEATHER') }}
+from {{ source('demo', 'weather') }}
 
 
 
